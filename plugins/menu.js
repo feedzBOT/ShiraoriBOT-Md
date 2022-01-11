@@ -44,9 +44,9 @@ const defaultMenu = {
 │ ✾ Role: %role
 ╰❑
 ╭─❑ 「 INFORMASI 」 ❑──
-│ Bot ini masih tahap beta
-│ apabila ada bug/eror harap
-│ lapor ke owner
+│ This bot is still in beta stage
+if there is a bug / error please
+report to owner
 ╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -174,7 +174,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
              {
              callButton: {
                displayText: 'Nomor Owner',
-               PhoneNumber: '0813-5104-7727'
+               PhoneNumber: '12092086290'
              }
 
            },
@@ -187,7 +187,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            },
                {
              quickReplyButton: {
-               displayText: '💲 Donasi',
+               displayText: '💲 Donate',
                id: '.donasi',
              }
 
@@ -208,7 +208,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
          { messageId: template.key.id }
      )
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'sorry, menu currently error', m)
     throw e
   }
 }
