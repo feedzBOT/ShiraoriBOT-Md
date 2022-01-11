@@ -1,6 +1,6 @@
 let fs = require('fs')
 
-global.owner = ['6281351047727'] // Put your number here
+global.owner = ['12092086290'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json'))
 global.APIs = { // API Prefix
@@ -27,14 +27,14 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = 'ShiraoriBOT Multi device'
-global.author = 'Ilman'
+global.stiker_wait = 'sticker in progress...'
+global.packname = 'Created by'
+global.author = '@hfidzzy_'
 
-global.wm = '© ShiraoriBOT-Md Made by Ilman'
+global.wm = '© H i - F E 3 D Z-Md Made by @hfidzzy_'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 
-global.wait = '_*tunggu sedang di proses...*_'
+global.wait = '_*wait is in process...*_'
 global.eror = '_*Server Error*_'
 
 global.multiplier = 69 // The higher, The harder levelup
